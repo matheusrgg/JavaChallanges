@@ -16,7 +16,20 @@ public class VerificacaoServico {
         boolean contratado = false;
         
         // TODO: Verifique se o serviço está na lista de serviços contratados
+        for (int i =0 ;  i< partes.length; i++) {
+         
+            if(partes[i].equalsIgnoreCase(servico)){
+                contratado = true;
+                break;
+            }
         
+
+        }
+                    if (contratado) {
+            System.out.println("Sim");
+        } else {
+            System.out.println("Nao");
+        }
         scanner.close();
     }
 }
