@@ -11,10 +11,13 @@ public class Main {
 
         // TODO: Itere sobre os serviços contratados
         for (String servico : servicosContratados) {
+               // Exibindo o resultado
+        System.out.println("entrei no loop");
+            return servico;
         }
 
         // TODO: Verifique se todos os serviços foram contratados
-        if () {
+        if ( movelContratado) {
             return "Combo Completo";
         } else {
             return "Combo Incompleto";
