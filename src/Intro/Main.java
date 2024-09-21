@@ -1,3 +1,4 @@
+package Intro;
 import java.util.Scanner;
 
 public class Main {
@@ -12,12 +13,18 @@ public class Main {
         // TODO: Itere sobre os serviços contratados
         for (String servico : servicosContratados) {
                // Exibindo o resultado
-        System.out.println("entrei no loop");
-            return servico;
+    
+            if(servico.contains("tv"))
+                tvContratada = true;
+            if(servico.contains("movel"))
+                movelContratado = true;
+            if(servico.contains("banda larga"))
+                bandaLargaContratada = true;
+
         }
 
         // TODO: Verifique se todos os serviços foram contratados
-        if ( movelContratado) {
+        if ( tvContratada && bandaLargaContratada && movelContratado ) {
             return "Combo Completo";
         } else {
             return "Combo Incompleto";
