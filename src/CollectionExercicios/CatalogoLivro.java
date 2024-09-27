@@ -47,6 +47,15 @@ public class CatalogoLivro {
         }
     }
 
+    // public List<Livro> pesquisarPorIntervaloAnos(int anoInicial, int anoFinal){
+    //     List<livro> livrosPorIntervalos = new ArrayList<>();
+    //     if(!livroList.isEmpty()){
+    //         fot(Livro l : livroList){
+    //             if(l.getAnoPublicacao() >= anoInicial &&)
+    //         }
+    //     }
+    // }
+
     public static void main(String[] args) {
         CatalogoLivro catalogoLivro = new CatalogoLivro();
         catalogoLivro.adicionarLivro("Livro 1 ", "Autor 2", 1990);
