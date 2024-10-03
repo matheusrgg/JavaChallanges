@@ -1,4 +1,5 @@
-package br.com.dio.desafio.dominio;
+package ExemploBootcamp.dominio;
+
 
 public abstract class Conteudo {
 
