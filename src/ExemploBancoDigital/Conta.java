@@ -29,7 +29,7 @@ public class Conta implements IConta{
 
 
     @Override
-    public void transferir(double valor, IConta contaDestino){
+    public void transferir(double valor, Conta contaDestino){
         this.sacar(valor);
         contaDestino.depositar(valor);
     }
