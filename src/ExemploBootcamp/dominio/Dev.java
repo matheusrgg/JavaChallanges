@@ -31,6 +31,12 @@ public class Dev {
         }
         return soma;
 
+         /*return this.conteudosConcluidos
+                .stream()
+                .mapToDouble(conteudo -> conteudo.calcularXp())
+                .sum();*/
+
+        //Reference Methods
         /*return this.conteudosConcluidos
                 .stream()
                 .mapToDouble(Conteudo::calcularXp)
