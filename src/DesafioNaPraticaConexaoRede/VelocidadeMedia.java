@@ -1,10 +1,10 @@
-package SumErrors;
+package DesafioNaPraticaConexaoRede;
 import java.util.Arrays;
 import java.util.List;
 import java.util.*; 
 import java.util.stream.*; 
 
-public class Main2 {
+public class VelocidadeMedia {
 
         
 public static void calcularVelocidadeMedia(String[] velocidades) {
