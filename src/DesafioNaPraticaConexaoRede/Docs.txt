@@ -1,0 +1,3 @@
+https://www.baeldung.com/java-stream-sum
+
+https://chatgpt.com/share/67082ca0-0394-8010-b421-323449b46ecc
