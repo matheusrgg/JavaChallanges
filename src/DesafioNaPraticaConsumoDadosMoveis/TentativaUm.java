@@ -35,11 +35,12 @@ public class TentativaUm {
         // Função para identificar a semana de maior consumo
         for (int i = 0; i < consumoSemanal.length; i++) {
           int consumo = Integer.parseInt(consumoSemanal[i].trim());
-            // System.out.println("Identificar maior consumo" + consumo);
+            // System.out.println("Identificar maior consumo" + consumo);333
 	        // TODO: Estabeleça Faça o cálculo para identificar a semana de maior consumo
             if(consumo > maiorConsumo){
                 maiorConsumo = consumo;
-                semanaDeMaiorConsumo = i;
+                //semana é indexada a partir de 1;
+                semanaDeMaiorConsumo = i + 1;
             }
         }
         System.out.println("Identificar maior consumo" + semanaDeMaiorConsumo);
